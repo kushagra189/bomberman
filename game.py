@@ -97,6 +97,7 @@ while 1:
 
 	os.system("tput reset")
 	Board.printMatrix(BoardArray,CheckArray)
+	BOMB.patternRemover(BoardArray,bombPosition[0],bombPosition[1])
 	print("remaining chance "+str(life))
 	print("Score is "+str(bombPosition[3]))
 

@@ -90,5 +90,47 @@ class Bomb:
 			if fl1==1:
 				array[3]=array[3]+20
 				fl1=0
-
+			self.patternCreater(Matrix,x,y)
 			array[2]=array[2]-1
+
+	def patternCreater(self,Matrix,x,y):
+		if Matrix[x][y+4]!='X':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i][y+4+j]='e'
+
+		if Matrix[x][y-4]!='X':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i][y-4+j]='e'
+
+		if Matrix[x+2][y]!='X':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+2+i][y+j]='e'
+
+		if Matrix[x-2][y]!='X':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x-2+i][y+j]='e'
+
+	def patternRemover(self,Matrix,x,y):
+		if Matrix[x][y+4]=='e':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i][y+4+j]=' '
+
+		if Matrix[x][y-4]=='e':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i][y+j-4]=' '
+
+		if Matrix[x+2][y]=='e':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i+2][y+j]=' '
+
+		if Matrix[x-2][y]=='e':
+			for i in range(2):
+				for j in range(4):
+					Matrix[x+i-2][y+j]=' '

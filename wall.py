@@ -43,6 +43,8 @@ class WallStructure:
 					print(colored(Matrix[i][j],'grey'),end='')
 				elif Matrix[i][j]=='E':
 					print(colored(Matrix[i][j],'red'),end='')
+				elif Matrix[i][j]=='':
+					print(colored(Matrix[i][j],'red'),end='')
 				elif(Matrix[i][j]=='O' or Matrix[i][j]=='1' or Matrix[i][j]=='2' or Matrix[i][j]=='3'):
 					print(colored(Matrix[i][j],'magenta'),end='')
 				else:
