@@ -14,24 +14,24 @@
 
  Game Controls :
 -----------------
- | key | function  |
- -------------------
- |  w  | move up   |
- |  s  | move down |
- |  a  | move left |
- |  d  | move down |
- |  b  | plant bomb|
- |  q  | quit game |
+| key | function  |
+|-----|-----------|
+|  w  | move up   |
+|  s  | move down |
+|  a  | move left |
+|  d  | move down |
+|  b  | plant bomb|
+|  q  | quit game |
  
  Game Symbols :
 ----------------
-  |  symbol |  function |
-  -----------------------
-  |    X    |    Wall   |
-  |    /    |   Brick   |
-  |    B    | Bomberman |
-  |    E    |   Enemy   |
-  |    e    | Explosion |
+|  symbol |  function |
+|---------|-----------|
+|    X    |    Wall   |
+|    /    |   Brick   |
+|    B    | Bomberman |
+|    E    |   Enemy   |
+|    e    | Explosion |
   
  About the Game:
 -----------------
