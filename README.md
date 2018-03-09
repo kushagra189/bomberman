@@ -1,15 +1,16 @@
-Project Name - BOMBERMAN : The Game
-Author - Kushagra Nagori (20161032 IIIT-H)
+# Project Name - BOMBERMAN : The Game
+# Author - Kushagra Nagori (20161032 IIIT-H)
 
-This is a prototype of the original game that can be played on the Unix Terminal.
-The initial steps to start the game is:
--> Run the file "game.py" in either python or python3.
+## This is a prototype of the original game that can be played on the Unix Terminal.
+
+* The initial steps to start the game is:
+ ** Run the file "game.py" in either python or python3.
 
 ##############################################################################################################################
  Installation Guidelines :
 ---------------------------
--> You should have pip/pip3/python/python3 installed.
--> python-termcolor module must be installed.
+- You should have pip/pip3/python/python3 installed.
+- python-termcolor module must be installed.
 
 ##############################################################################################################################
 
