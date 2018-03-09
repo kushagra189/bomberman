@@ -1,10 +1,10 @@
 # Project Name - BOMBERMAN : The Game
-# Author - Kushagra Nagori (20161032 IIIT-H)
+## Author - Kushagra Nagori (20161032 IIIT-H)
 
-## This is a prototype of the original game that can be played on the Unix Terminal.
+* This is a prototype of the original game that can be played on the Unix Terminal.
 
 * The initial steps to start the game is:
- ** Run the file "game.py" in either python or python3.
+  * Run the file "game.py" in either python or python3.
 
 ##############################################################################################################################
  Installation Guidelines :
@@ -14,40 +14,29 @@
 
 ##############################################################################################################################
 
-Game Controls ->
- -------------------
+Game Controls :
+----------------
  | key | function  |
  -------------------
  |  w  | move up   |
- -------------------
  |  s  | move down |
- -------------------
  |  a  | move left |
- -------------------
  |  d  | move down |
- -------------------
  |  b  | plant bomb|
- -------------------
  |  q  | quit game |
- -------------------
-
+ 
 ##############################################################################################################################
 
- Game Symbols ->
-  -----------------------
+ Game Symbols :
+----------------
   |  symbol |  function |
   -----------------------
   |    X    |    Wall   |
-  -----------------------
   |    /    |   Brick   |
-  -----------------------
   |    B    | Bomberman |
-  -----------------------
   |    E    |   Enemy   |
-  -----------------------
   |    e    | Explosion |
-  -----------------------
-
+  
 ##############################################################################################################################
 
  About the Game:
