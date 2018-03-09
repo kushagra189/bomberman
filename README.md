@@ -6,16 +6,14 @@
 * The initial steps to start the game is:
   * Run the file "game.py" in either python or python3.
 
-##############################################################################################################################
  Installation Guidelines :
 ---------------------------
 - You should have pip/pip3/python/python3 installed.
 - python-termcolor module must be installed.
 
-##############################################################################################################################
 
-Game Controls :
-----------------
+ Game Controls :
+-----------------
  | key | function  |
  -------------------
  |  w  | move up   |
@@ -25,8 +23,6 @@ Game Controls :
  |  b  | plant bomb|
  |  q  | quit game |
  
-##############################################################################################################################
-
  Game Symbols :
 ----------------
   |  symbol |  function |
@@ -37,46 +33,39 @@ Game Controls :
   |    E    |   Enemy   |
   |    e    | Explosion |
   
-##############################################################################################################################
-
  About the Game:
 -----------------
- -> The game consists of 1 bomberman and 4 enemies (number of enemies is fixed).
- -> The aim of the game is to kill all the enemies, destroy bricks and score as high as possible.
- -> The game is to be played in accordance with the above controls.
- -> The game gets over if you kill all the enemies i.e you win.
- -> The player can plant only one bomb at a time.Once it explodes, you can plant another.
- -> Killing an enemy gives you 100 points, while breaking a brick gives you 20 points.
- -> The entity at the position where the bomb is planted will not get affected by the explosion of the bomb.
+ - The game consists of 1 bomberman and 4 enemies (number of enemies is fixed).
+ - The aim of the game is to kill all the enemies, destroy bricks and score as high as possible.
+ - The game is to be played in accordance with the above controls.
+ - The game gets over if you kill all the enemies i.e you win.
+ - The player can plant only one bomb at a time.Once it explodes, you can plant another.
+ - Killing an enemy gives you 100 points, while breaking a brick gives you 20 points.
+ - The entity at the position where the bomb is planted will not get affected by the explosion of the bomb.
     The effect of the explosion is seen only in the surrounding 4 cells.
- -> An enemy can be killed only if it gets caught in an explosion.
- -> Colorful environment.
- -> Bomb displays the time left for explosion.
- -> The bomberman has 3 lives to play(also fixed).
- -> The game ends, if the bomberman dies.
-
-##############################################################################################################################
+ - An enemy can be killed only if it gets caught in an explosion.
+ - Colorful environment.
+ - Bomb displays the time left for explosion.
+ - The bomberman has 3 lives to play(also fixed).
+ - The game ends, if the bomberman dies.
 
  Features implemented :
 ------------------------
-=> INHERITENCE :
-   Enemy as well as the bomberman inherit their movement functions from the person class. There are instances of various functions being inherited from the board class in different classes.
+* INHERITENCE :
+   * Enemy as well as the bomberman inherit their movement functions from the person class. There are instances of various functions being 	  inherited from the board class in different classes.
 
-=> POLYMORPHISM :
-   The use of polymorphism has been implemented while overriding the "move" functions of enemy.
+* POLYMORPHISM :
+   * The use of polymorphism has been implemented while overriding the "move" functions of enemy.
    The functionality of "move" funcions of enemy and person are different.
 
-=> MODULARITY :
-   The entire game has been build in a modular fashion. Most of the jobs have their own dedicated functions which make the code modular and easy to understand.
+* MODULARITY :
+   * The entire game has been build in a modular fashion. Most of the jobs have their own dedicated functions which make the code modular and easy to understand.
 
-=> ENCAPSULATION :
-   Encapsulation has been used to present many methods in various classes which are integral to the functioning of the game.
-
-##############################################################################################################################
+* ENCAPSULATION :
+  * Encapsulation has been used to present many methods in various classes which are integral to the functioning of the game.
 
  Bonus Implementations :
 -------------------------
 1. The explosion pattern.
 2. The different entities have been given different colors using python-termcolor module.
 
-##############################################################################################################################
